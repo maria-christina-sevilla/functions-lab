@@ -1,12 +1,25 @@
 // Question 1
-function maxOfTwoNumbers() {
-
+function maxOfTwoNumbers(number1, number2) {
+    if (number1 > number2) {
+        return number1;
+    } else {
+        return number2;
+    }
 }
+console.log(maxOfTwoNumbers(4, 6));
 
 // Question 2
-function maxOfThree() {
-
+function maxOfThree(number1, number2, number3) {
+    if (number1 > number2 && number1 > number3) {
+        return number1;
+    } else if (number2 > number1 && number2 > number3) {
+        return number2;
+    } else {
+        return number3;
+    }
 }
+(maxOfThree(10, 4, 2));
+
 
 // Question 3
 function isCharacterAVowel() {
@@ -15,7 +28,7 @@ function isCharacterAVowel() {
 
 // Question 4
 function sumArray() {
- 
+
 }
 
 
@@ -26,27 +39,27 @@ function multiplyArray() {
 
 
 // Question 5
-var numberOfArguments = function(){
-  
+var numberOfArguments = function() {
+
 }
 
 
 
 // Question 6
-var reverseString = function (){
-  
+var reverseString = function() {
+
 };
 
 
 // Question 7
-function findLongestWord () {
-  
+function findLongestWord() {
+
 }
 
 
 // Question 8
-function filterLongWords () {
-  
+function filterLongWords() {
+
 }
 
 
@@ -56,6 +69,5 @@ function filterLongWords () {
 
 // Bonus 2
 function charactersOccurencesCount() {
-  
-}
 
+}
